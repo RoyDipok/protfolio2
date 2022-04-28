@@ -397,6 +397,11 @@ img {
             padding: .5rem 2rem;
             font-weight: bold;
         }
+        p{
+            span{
+                color: var(--first-color);
+            }
+        }
     }
 
     .s_image {
