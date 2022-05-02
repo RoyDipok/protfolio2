@@ -9,11 +9,12 @@
 
 
 
-    <title>Kodular Coder</title>
+    <title>Richard Dip</title>
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -44,7 +45,6 @@
                         <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#About" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#Testimonials" class="nav__link">Testimonials</a></li>
                         <li class="nav__item"><a href="#Footer" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -70,7 +70,7 @@
                 <h4>Hi, I am <span>Richard Dip</span> 👋</h4>
                 <h1>Creative designer & front-end developer</h1>
                 <p>I design and code beautifully simple things, and I love what I do.</p>
-                <img src="images/avataaars 1.png" alt="Kodularcoder">
+                <img src="images/testprofile.png" alt="Kodularcoder">
             </div>
 
 
@@ -105,16 +105,14 @@
     <div class="aboutme" id="About">
         <div class="row">
             <div class="section s_image">
-                <img src="images/Group 12.png" alt="">
+                <img src="images/Untitled-2.png" alt="">
             </div>
             <div class="section">
                 <div class="who">Who I am</div>
                 <h1>About Me</h1>
                 <p>Hi! I’m <span>Richard Dip</span>, and I’m a designer & developer who has passion for building clean web
                     applications with intuitive functionality. I enjoy the process of turning ideas into reality using
-                    creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition
-                    to working on various solo full stack projects, I have worked with creative teams, which involves
-                    daily stand-ups and communications, source control, and project management.</p>
+                    creative solutions. I’m always curious about learning new skills, tools, and concepts.</p>
 
                 <a href="">Hire Me</a>
             </div>
@@ -210,7 +208,7 @@
     </div>
 
 
-    <div class="contain2 testimoni" id="Testimonials">
+    <!-- <div class="contain2 testimoni" id="Testimonials">
         <center>
             <div class="who">Testimonials</div>
             <h1>What customer says</h1>
@@ -282,7 +280,7 @@
                 </div>
             </div>
         </center>
-    </div>
+    </div> -->
 
 
 
@@ -309,7 +307,7 @@
                         <li><a href="">Instagram</a></li>
                         <li><a href="">Twitter</a></li>
                         <li><a href="">Telegram</a></li>
-                        <li><a href="">Whatsapp</a></li>
+                        <li><a href="mailto:johndoe@fakeemail.com">Whatsapp</a></li>
                     </ul>
                 </div>
                 <div class="contant3" id="Footer">
@@ -317,12 +315,10 @@
                         <li class="active">Contact</li>
                         <li>Send your email to contact with us</li>
                         <li>
-                            <form action="" method="post">
                                 <div class="form">
-                                    <input type="text" placeholder="Enter your Email" required name="email">
-                                    <button type="submit"><ion-icon name="send"></ion-icon></button>
+                                    <input type="text" placeholder="Enter your message"  name="body" id="message" oninput="setmail()">
+                                    <a id="link" target="_blank" href="mailto:johndoe@fakeemail.com"><ion-icon name="send"></ion-icon></a>
                                 </div>
-                            </form>
                         </li>
                     </ul>
                 </div>
@@ -340,7 +336,8 @@
     <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="js/nav.js"></script>
-    <script src="js/slider.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- <script src="js/slider.js"></script> -->
 </body>
 
 </html>

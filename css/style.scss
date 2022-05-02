@@ -21,6 +21,7 @@
 }
 html {
     scroll-behavior: smooth;
+    user-select: none;
   }
 
 @media screen and (min-width: 768px) {
@@ -643,14 +644,19 @@ img {
                                 border: none;
                                 outline: none;
                             }
-                            button{
+                            a{
                                 width: 40px;
                                 height: 40px;
+                                line-height: 40px;
                                 background-color: var(--first-color);
                                 color: var(--white-color);
                                 border-radius: 50%;
                                 border: none;
                                 position: absolute;
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                             }
                         }
                     }
